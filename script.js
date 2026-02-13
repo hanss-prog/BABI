@@ -32,7 +32,7 @@ roseAreas.forEach(area => {
         }
 
         if (type === "special") {
-            typeWriter("Will ya go out with me and be w me forever? ❤️🌹");
+            typeWriter("Will ya go out with me and be w me forever?");
             buttons.style.display = "block";
             confettiExplosion();
         }
@@ -108,3 +108,4 @@ function confettiExplosion() {
         setTimeout(() => confetti.remove(), 3000);
     }
 }
+
